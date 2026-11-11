@@ -1,0 +1,28 @@
+status      quantidade
+----------  ----------
+CANCELLED   7         
+CREATED     5         
+CUSTOMS     5         
+DELIVERED   6         
+IN_TRANSIT  5         
+customer             total_embarques  valor_total_usd
+-------------------  ---------------  ---------------
+Atlas Importadora    4                65443.05       
+Brasil Têxtil S/A    4                122117.4       
+Comercial Andrade    4                129049.4       
+Delta Eletrônicos    3                81190.05       
+Eco Pack Embalagens  3                86389.05       
+Ferro & Aço Ltda     3                91588.05       
+Gamma Farmacêutica   3                96787.05       
+Horizonte Foods      3                101986.05      
+teste                1                5000.0         
+reference     status_atual  ultimo_status_evento
+------------  ------------  --------------------
+LT-2026-0007  DELIVERED     IN_TRANSIT          
+LT-2026-0014  CANCELLED     DELIVERED           
+LT-2026-0022  IN_TRANSIT    CREATED             
+id  reference     customer           origin         destination    incoterm  weight_kg  value_usd  status   
+--  ------------  -----------------  -------------  -------------  --------  ---------  ---------  ---------
+11  LT-2026-0011  Comercial Andrade  Paranaguá, BR  Paranaguá, BR  FOB       870.0      25330.35   CREATED  
+19  LT-2026-0019  Comercial Andrade  Paranaguá, BR  Hamburgo, DE   DAP       0.0        39194.35   DELIVERED
+25  LT-2026-0025  Atlas Importadora  Santos, BR     Rotterdam, NL  DDP       4988.0     -150.0     CANCELLED
