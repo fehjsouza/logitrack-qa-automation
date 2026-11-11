@@ -1,0 +1,10 @@
+node_modules/
+test-results/
+.features-gen/
+playwright-report/
+.DS_Store
+.env
+.env.*
+*.db
+*.sqlite
+*.sqlite3
